@@ -1,0 +1,43 @@
+{
+    "name": "infyomlabs/laravel-ui-adminlte",
+    "description": "Laravel frontend preset for AdminLTE Theme",
+    "keywords": [
+        "laravel",
+        "preset",
+        "adminlte"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitul Golakiya",
+            "email": "me@mitul.me"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "infyomlabs/laravel-generator-helpers": "^5.0",
+        "laravel/ui": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "InfyOm\\AdminLTEPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InfyOm\\AdminLTEPreset\\AdminLTEPresetServiceProvider"
+            ]
+        }
+    },
+    "funding": [
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/infyomlabs"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
