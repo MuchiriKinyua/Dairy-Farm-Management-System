@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,4 @@ Route::resource('records', App\Http\Controllers\RecordController::class);
 Route::resource('roles', App\Http\Controllers\RoleController::class);
 Route::resource('sales', App\Http\Controllers\SaleController::class);
 Route::resource('suppliers', App\Http\Controllers\SupplierController::class);
+Route::resource('users', UserController::class);
