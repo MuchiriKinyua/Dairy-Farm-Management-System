@@ -1,77 +1,73 @@
-# Dairy Farm Management System
+![Screenshot from 2024-12-15 17-51-49](https://github.com/user-attachments/assets/6595c920-48d4-4f32-b07f-856831e9977a)
 
-A comprehensive system to manage all aspects of a dairy farm including cow management, milk production, feed inventory, sales tracking, and employee management.
+# Dairy Farm Management System </br>
 
-## Features
+A comprehensive system to manage all aspects of a dairy farm including cow management, milk production, feed inventory, sales tracking, and employee management. </br>
 
-- **Cow Management**: Track and manage cows on the farm, their health, and milk production.
-- **Milk Production**: Monitor and record milk production and inventory.
-- **Feed Inventory**: Manage feed consumption and inventory for cows.
-- **Sales Tracking**: Keep track of sales related to milk, cows, and other dairy products.
-- **Employee Management**: Manage farm employees, their roles, and responsibilities.
-- **Roles & Permissions**: Administer user roles and permissions to control access to different sections of the system.
+## Features </br>
 
-## Technologies Used
+- **Cow Management**: Track and manage cows on the farm, their health, and milk production. </br>
+- **Milk Production**: Monitor and record milk production and inventory. </br>
+- **Feed Inventory**: Manage feed consumption and inventory for cows. </br>
+- **Sales Tracking**: Keep track of sales related to milk, cows, and other dairy products. </br>
+- **Employee Management**: Manage farm employees, their roles, and responsibilities. </br>
+- **Roles & Permissions**: Administer user roles and permissions to control access to different sections of the system. </br>
 
-- **Frontend**: 
-  - [Tailwind CSS](https://tailwindcss.com/) for modern, responsive UI design.
-  - [Font Awesome](https://fontawesome.com/) for icons.
+## Technologies Used </br>
+
+- **Frontend**:  </br>
+  - [Tailwind CSS](https://tailwindcss.com/) for modern, responsive UI design. </br>
+  - [Font Awesome](https://fontawesome.com/) for icons. </br>
   
-- **Backend**: 
-  - [Laravel](https://laravel.com/) for the backend API and user management.
+- **Backend**:  </br>
+  - [Laravel](https://laravel.com/) for the backend API and user management. </br>
   
-- **Database**: 
-  - [MySQL](https://www.mysql.com/) for data storage.
+- **Database**:  </br>
+  - [MySQL](https://www.mysql.com/) for data storage. </br>
 
-## Installation
+## Installation </br>
 
-### Prerequisites
+### Prerequisites </br>
 
-- PHP >= 7.4
-- Composer
-- MySQL
+- PHP >= 7.4 </br>
+- Composer </br>
+- MySQL </br>
 
-### Steps to Install
+### Steps to Install </br>
 
-1. Clone the repository:
+1. Clone the repository: </br>
 
-   ```bash
-   git clone https://github.com/your-username/dairy-farm-management-system.git
-   cd dairy-farm-management-system
-Install the required dependencies via Composer:
+   ```bash </br>
+   git clone https://github.com/MuchiriKinyua/Dairy-Farm-Management-System </br>
+   cd dairy-farm-management-system </br>
+Install the required dependencies via Composer: </br>
 
-bash
-Copy code
-composer install
-Copy the .env.example file to .env and update the database and other environment variables:
+## bash </br>
+composer install </br>
+Copy the .env.example file to .env and update the database and other environment variables: </br>
 
-bash
-Copy code
-cp .env.example .env
-Edit .env to configure your database settings.
+## bash </br>
+cp .env.example .env </br>
+Edit .env to configure your database settings. </br>
 
-Generate the application key:
+Generate the application key: </br>
 
-bash
-Copy code
-php artisan key:generate
-Run the database migrations:
+## bash </br>
+php artisan key:generate </br>
+Run the database migrations: </br>
 
-bash
-Copy code
-php artisan migrate
-(Optional) Seed the database with dummy data:
+## bash </br>
+php artisan migrate </br>
+(Optional) Seed the database with dummy data: </br>
 
-bash
-Copy code
-php artisan db:seed
-Serve the application:
+## bash </br>
+php artisan db:seed </br>
+Serve the application: </br>
 
-bash
-Copy code
-php artisan serve
-Your application will be available at http://127.0.0.1:8000.
+## bash </br>
+php artisan serve </br>
+Your application will be available at http://127.0.0.1:8000. </br>
 
-Usage
-Log in: Navigate to the login page to access the system with your credentials.
+## Usage </br>
+Log in: Navigate to the login page to access the system with your credentials. </br>
 Dashboard: Once logged in, you'll be able to manage cows, milk production, employees, sales, feed, and more from the dashboard.
